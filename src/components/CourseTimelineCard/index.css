@@ -1,0 +1,45 @@
+* {
+  font-family: 'Roboto';
+}
+.heading-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.heading {
+  color: #171f46;
+}
+
+.clock {
+  width: 22px;
+  margin-bottom: 3px;
+}
+.content {
+  margin-top: 0;
+  color: #1e293b;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: lightblue;
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
